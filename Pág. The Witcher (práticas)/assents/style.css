@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+
+body{
+    background-image: url("img/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+header *{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+}
+
+header div{
+    width: 40%;
+    justify-content: space-around;
+}
+
+header img{
+    width: 5vw;
+    height: calc(5vw * 1.22);
+}
+
+header figcaption{
+    display: none;
+}
+
+header h1{
+    font-size: calc(100vw * 0.02);
+    color: white;
+}
+
+header nav{
+    width: 40%;
+}
+
+header ul{
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+header li {
+    height: 100%;
+  }
+  
+  header a {
+    color: white;
+    padding: 1vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 100%;
+  }
+  
+  header a:hover {
+    background-color: red;
+  }
+  
+  header .ativo {
+    font-weight: bolder;
+  }
+  
+  main {
+    display: flex;
+    background-image: url("img/personagem.png");
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+  }
+  
+  main * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main section {
+    width: 100%;
+  }
+  
+  main img {
+    width: 80%;
+  }
+  
+  main figcaption {
+    display: none;
+  }
+  
